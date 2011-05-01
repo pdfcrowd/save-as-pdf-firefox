@@ -1,0 +1,8 @@
+<!ENTITY crowdext.label "Your localized menuitem">
+<!ENTITY crowdextContext.label "Save as PDF">
+<!ENTITY crowdextContext.accesskey "Y">
+<!ENTITY crowdextToolbarButton.label "Save as PDF">
+<!ENTITY crowdextToolbarButton.tooltip "Save as PDF by pdfcrowd.com">
+<!ENTITY crowdextSidebar.label "Your Sidebar">
+<!ENTITY crowdextToolbar.name  "example">
+<!ENTITY crowdextToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &crowdextToolbar.name;">

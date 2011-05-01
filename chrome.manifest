@@ -1,0 +1,7 @@
+content   crowdext                 chrome/content/
+skin      crowdext   classic/1.0   chrome/skin/
+locale    crowdext   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://crowdext/content/ff-overlay.xul
+style chrome://global/content/customizeToolbar.xul chrome://crowdext/skin/overlay.css

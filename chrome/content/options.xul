@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet type="text/css" href="saveaspdf.css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://crowdext/locale/options.dtd">
+
+<prefwindow id="crowdext-preferences" 
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+            xmlns:html="http://www.w3.org/1999/xhtml"
+            title="&prefwindow.title;">
+
+  <prefpane id="pane1" label="&pane1.title;">
+    <hbox class="margin-bottom">        
+      <image src="saveaspdf.png" width="32" height="32" />
+      <description class="head-2" value=" Save as PDF"/>
+    </hbox>
+
+    <hbox class="hr margin-bottom"/>
+
+
+    <description class="desc">
+      This extension uses the <html:a onclick="window.open('http://pdfcrowd.com')"
+      class="text-link">Pdfcrowd</html:a> online service to create PDFs from web
+      pages. If you want to change the default settings:
+      <html:ol>
+        <html:li><html:a class="text-link" onclick="window.open('http://pdfcrowd.com/pricing/license/')">Sign up</html:a> for a paid account at Pdfcrowd</html:li>
+        <html:li>Customize the settings on the Pdfcrowd web site</html:li>
+        <html:li>Click the <em>Save Settings</em> button</html:li>
+      </html:ol>
+    </description>
+
+    <description class="margin-bottom desc">
+      You can find more information about this extension
+      at <html:a class="text-link"
+      onclick="window.open('http://pdfcrowd.com/save-as-pdf-explained/')">http://pdfcrowd.com/save-as-pdf-explained/</html:a>.
+    </description>
+
+    <description class="margin-bottom desc">Here is a screenshot of the
+    available options:</description>
+
+
+
+    <hbox class="margin-bottom">
+      <html:a onclick="window.open('http://pdfcrowd.com/#convert_by_url+with_options')" class="cursor-pointer">
+        <html:img src="options-screenshot.png" />
+      </html:a>
+    </hbox>
+
+
+  </prefpane>
+
+</prefwindow>

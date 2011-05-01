@@ -1,0 +1,5 @@
+<!ENTITY prefwindow.title "Save as PDF preferences">
+<!ENTITY pane1.title "Save as PDF preferences">
+<!ENTITY installtoolbarpref.label "Place the 'Save as PDF' button on the toolbar">
+<!ENTITY installtoolbarpref.accesskey "T">
+

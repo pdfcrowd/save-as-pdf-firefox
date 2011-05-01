@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://crowdext/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://crowdext/locale/overlay.dtd">
+<overlay id="crowdext-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="crowdext-strings" src="chrome://crowdext/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <!-- <popup id="contentAreaContextMenu"> -->
+  <!--   <menuitem id="context-crowdext" label="&crowdextContext.label;" -->
+  <!--             accesskey="&crowdextContext.accesskey;" -->
+  <!--             insertafter="context-stop" -->
+  <!--             oncommand="crowdext.onMenuItemCommand(event)"/> -->
+  <!-- </popup> -->
+
+  <toolbarpalette id="BrowserToolbarPalette">
+  <toolbarbutton id="crowdext-toolbar-button" class="toolbarbutton-1 chromeclass-toolbar-additional"
+    label="&crowdextToolbarButton.label;" tooltiptext="&crowdextToolbarButton.tooltip;"
+    oncommand="crowdext.onToolbarButtonCommand()"/>
+  </toolbarpalette>
+
+
+
+</overlay>
